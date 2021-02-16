@@ -1,12 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(../img/dots.png);
     background-size: contain;
 }
 .page-header{
     min-height: 60vh;
-}
-.text-me{
-   padding-bottom: 40px;
 }
 .carousel-me{
     height: 300px;
@@ -64,4 +64,16 @@ body{
     0% { margin-top: inherit;}
     50%{margin-top: -6px;}
     100%{ margin-top: inherit;}
+}
+
+@media only screen and (max-width:500px) {
+    .nav-me{display: none;}
+    .img-fluid{margin-bottom: 15px;}
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
 }
