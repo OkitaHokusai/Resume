@@ -76,4 +76,7 @@ body{
     body{
         position: relative;
     }
+    .page-header{
+        min-height: 100vh;
+    }
 }
